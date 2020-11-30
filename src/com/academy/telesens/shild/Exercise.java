@@ -3,6 +3,39 @@ package com.academy.telesens.shild;
 public class Exercise {
     public static void main(String[] args) {
 
+/*
+Демонстрация использования переменных.
+Присвойте файлу с исходным кодом имя Example2.java.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /*
 Расчет числа кубических дюймов в кубе объемом в 1 куб. милю
 */
@@ -43,12 +76,20 @@ public class Exercise {
             System.out.println("Знaчeниe Ь: " + b);
             // Логическое значение можно использовать для
             // управления условным оператором if
-            if (b) System. out. println ( "Эта инструкция вьmолняется");
-            b = false;
-            if(b) System.out.println("Этa инструкция не выполняется");
+            //if (b) System. out. println ( "Эта инструкция вьmолняется");//отподает необходимость  if (b == ...)
+            if (b == true) { System. out. println ( "Эта инструкция вьmолняется");}//
+            //b = false;//                                             отподает необходимость else if (b == false)
+            //if(b) System.out.println("Этa инструкция не выполняется");
+            else if (b == false) { System.out.println("Этa инструкция не выполняется");}//
             // В результате выполнения сравнения
             // получается логическое значение
             System.out.println("Peзyльтaт сравнения 10 > 9: " + (10 > 9));//скобки необходимы т.к +выше приоритет
+
+        /*   Знaчeниe Ь: false
+             Знaчeниe Ь: true
+             Эта инструкция вьmолняется
+             Peзyльтaт сравнения 10 > 9: true */
+
 
 
         //Упражнение 2.1
@@ -59,6 +100,8 @@ public class Exercise {
                 dist = 1100 * 7.2 ;
                 System.out.println("Paccтoяниe до места вспьпnки молнии " +
                         "составляет " + dist + " футов");
+       //    Paccтoяниe до места вспьпnки молнии составляет 7920.0 футов
+
 
 
 
