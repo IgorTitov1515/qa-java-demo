@@ -156,7 +156,23 @@ public class TypeDemo {
             System.out.println("Old");
         }
 
+        System.out.println("**********");
+
         //  Оператор Switch ("zero", "one", "default")
+        int digt = 10;
+        switch (digt) {
+            case 0:
+                System.out.println("zero");
+                break;
+
+            case 1:
+                System.out.println("one");
+                break;
+
+            default:
+                System.out.println("not defected digt");
+
+        }
 
 
 

@@ -4,21 +4,41 @@ import java.util.Scanner;
 
 public class HomeTask4 {
     public static void main(String[] args) {
-/* exercise 3
-*/
-        System.out.println("Введите первое число:");
+// exercise 4
+
+
+        System.out.print("Введите первое число: ");
         Scanner scanner = new Scanner(System.in);
-        Integer onetnumber = scanner.nextInt();
+        Integer x = scanner.nextInt();
 
-        System.out.println("Введите второе число:");
-        Scanner scanner1 = new Scanner(System.in);// Почему здесь нужен scanner1 ? просто сканер не пропускает.
-        Integer twotnumber = scanner1.nextInt();
+        System.out.print("Введите второе число: ");
+        Integer y = scanner.nextInt();
 
-        int a =onetnumber/twotnumber;
-        System.out.println( String.format("Результат целочисленного деления : %s ",a));
+        System.out.print("Введите третье число: ");
+        Integer z = scanner.nextInt();
 
-        int b =  onetnumber%twotnumber;
-        System.out.println( String.format("Остаток от деления : %s ",b));
+
+        System.out.println();
+        if(x > y && x > z )
+            System.out.println("Максимальное число: " + x);
+        if(y > x && y > z )
+            System.out.println("Максимальное число: " + y);
+        if(z > y && z > x )
+            System.out.println("Максимальное число: " + z);
+
+        if(x < y && x < z )
+            System.out.println("Минимальное число: " + x);
+        if(y < x && y < z )
+            System.out.println("Минимальное число: " + y);
+        if(z < y && z < x )
+            System.out.println("Минимальное число: " + z);
+
+        if(x < y && x > z )
+            System.out.println("Cреднее число: " + x);
+        if(y > x && y < z )
+            System.out.println("Cреднее число: " + y);
+        if(z > y && z < x )
+            System.out.println("Cреднее число: " + z);
 
     }
 }
