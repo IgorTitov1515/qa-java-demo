@@ -134,10 +134,5 @@ public class TwoDemo {
         System.out.println(Arrays.toString(doubleNumbers));
 
 //******************************************************************
-
-
-
-
-
-        }
+    }
 }

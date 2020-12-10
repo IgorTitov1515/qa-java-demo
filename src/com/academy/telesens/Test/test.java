@@ -1,25 +1,30 @@
 package com.academy.telesens.Test;
 
+
 import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
 
-        int a, b, n ;
+        /*1) Напишите программу, которая:
+        - считывает строку
+                - выводит исходную строку
+        - выводит количество и список слов, которые начинаются на букву 'd'*/
+
+       /* System.out.println("Введите строку");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите двузначное число: ");
-        n = scanner.nextInt();
+        String str1 = scanner.nextLine();
+        System.out.println("Ваша строка: ");*/
 
-        if(n/10 > 9 || n/10 == 0){
-            //n -= n;
-            System.out.print("Вы ввели не двухзначное число");
-            //n += scanner.nextInt();
-        } else {    //(0 < n/10 && n/10 < 10)
-            a = n/10;
-            b = n%10;
-            System.out.println("Исходное число: "+n);
-            System.out.println("Сумма чисел: "+ (a+b));
-    }
-}}
+        String str1 = "Wsd hal def cnm da";
 
 
+
+
+
+
+
+
+        }
+
+}
